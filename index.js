@@ -352,7 +352,10 @@ function initRoutes(request, response, static_path){
 		delete require.cache[mpath];
 		registerRoutesByModule(mpath);
 	}
-    var services = appJson['routes']
+    var services = appJson['routes'];
+    if (!services) {
+	services  = {};
+    }
     var urlstr = url.parse(request.url).pathname;
     var method = request.method;
     var service = services[urlstr + "#" + method];
