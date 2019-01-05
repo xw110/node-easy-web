@@ -1,0 +1,23 @@
+{
+  "name": "node-easy-web",
+  "version": "1.0.0",
+  "description": "使用nodejs快速创建web程序",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xw110/node-easy-web.git"
+  },
+  "keywords": [
+    "httpserver",
+    "web"
+  ],
+  "author": "xwann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xw110/node-easy-web/issues"
+  },
+  "homepage": "https://github.com/xw110/node-easy-web#readme"
+}
