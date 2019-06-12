@@ -312,7 +312,7 @@ function start() {
 	appJson['appServer'] = server;
        
     // start service log...    
-	console.log('Server running at http://127.0.0.1:/' + port);
+	console.log('Server running at http://localhost:' + port);
 }
 
 function wrapRes(obj, f) {
